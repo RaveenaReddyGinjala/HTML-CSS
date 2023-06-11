@@ -148,6 +148,7 @@ a{
     cursor:pointer;
     white-space: nowrap;
   }
+  /*Button*/
 .btn{
 font-size: 1.8rem;
 font-weight: 600;
@@ -200,4 +201,23 @@ margin: 1rem 0;
     .btn{
         font-size: 1.5rem;
     }
+}
+/*Input*/
+.input{
+    padding: 1.5rem 3.5rem;
+    border:1px solid #ccc;
+    border-radius: 30px;
+    outline: 0;
+    color:var(--color-heading);
+    font-size: 2rem;
+}
+::placeholder{
+    color:#cdcbd7;
+}
+
+@media screen and (min-width:1024px){
+    .input{
+        font-size: 1.5rem;
+    }
+
 }
