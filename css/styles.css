@@ -217,6 +217,10 @@ margin: 1rem 0;
         font-size: 1.5rem;
     }
 }
+.btn--streched{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
 /*Input*/
 .input{
     padding: 1.5rem 3.5rem;
@@ -423,3 +427,43 @@ display:block
 }
 }
 
+/*callout*/
+
+.callout{
+    padding:5rem;
+    border-radius: 5px;
+}
+.callout--primary{
+    background: var(--color-primary);
+    color: #fff;
+}
+.callout__heading{
+    margin-top: 0;
+    font-size: 3rem;
+    color:#fff;
+}
+.callout .btn{
+    justify-self: center;
+    align-self: center;
+
+}
+
+.callout__content{
+    text-align: center;
+}
+
+@media screen  and (min-width:768px){
+
+.callout .grid--1x2{
+    grid-template-columns: 1fr auto;
+}
+    .callout__content{
+        text-align: left;
+
+    }
+    .callout .btn{
+        justify-self:start;
+        margin:0 2rem;
+    }
+    
+}
